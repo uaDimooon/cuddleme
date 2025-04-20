@@ -8,7 +8,7 @@ export async function getIntentFromPrompt(input) {
       { role: 'system', content: 'You are a helpful assistant who classifies user requests.' },
       { role: 'user', content: input }
     ],
-    model: 'gpt-3.5-turbo',
+    model: 'gpt-4.1',
     temperature: 0.2
   });
 
