@@ -66,7 +66,7 @@ export const resolvers = {
       );
       return rows[0];
     },
-    handleNaturalRequest,
+    handleNaturalRequest
   },
 
   Sitter: {
