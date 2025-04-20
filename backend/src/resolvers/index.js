@@ -1,4 +1,5 @@
 import { db } from '../config/db.js';
+import { handleNaturalRequest } from '../conversation/handler.js';
 
 export const resolvers = {
   Query: {
@@ -64,7 +65,8 @@ export const resolvers = {
         [startTime, endTime, notes, bookingId]
       );
       return rows[0];
-    }
+    },
+    handleNaturalRequest,
   },
 
   Sitter: {
