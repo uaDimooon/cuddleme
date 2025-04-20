@@ -3,16 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev-server": "node backend/src/server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "dotenv": "^16.5.0",
-    "graphql": "^16.10.0",
-    "graphql-yoga": "^5.13.4",
-    "pg": "^8.14.1"
-  }
+  "license": "ISC"
 }
